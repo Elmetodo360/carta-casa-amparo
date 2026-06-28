@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casa Amparo 1948 · Carta</title>
+<meta name="description" content="Carta digital de Casa de Comidas Amparo 1948. Come como en casa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --burdeos:#6E1F28;
+    --burdeos-2:#86303a;
+    --crema:#f4ecd6;
+    --tinta:#4a3322;
+    --suave:#7a5236;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+    color:var(--tinta);
+    min-height:100vh;
+    background:#e9dcb6 url("kraft.jpg") center/cover fixed no-repeat;
+    line-height:1.4;
+  }
+  .overlay{min-height:100vh;background:rgba(244,236,214,.80);padding:30px 20px 46px}
+  .wrap{max-width:460px;margin:0 auto;text-align:center}
+  .logo{width:74%;max-width:300px;margin:6px auto 0;display:block}
+  .tagline{font-style:italic;font-size:1.18rem;color:var(--burdeos);margin:16px 8px 4px}
+  .rombo{display:flex;align-items:center;justify-content:center;gap:12px;margin:22px 0 10px;color:var(--burdeos)}
+  .rombo::before,.rombo::after{content:"";height:1px;flex:1;background:var(--burdeos);opacity:.55}
+  .rombo span{width:7px;height:7px;background:var(--burdeos);transform:rotate(45deg);display:inline-block}
+  .label{font-size:.86rem;letter-spacing:.28em;text-transform:uppercase;color:var(--burdeos);font-weight:600;margin:18px 0 12px}
+  a.btn{
+    display:block;text-decoration:none;color:var(--burdeos);
+    background:rgba(255,255,255,.45);
+    border:1.4px solid var(--burdeos);border-radius:3px;
+    padding:16px 18px;margin:11px 0;
+    transition:all .15s ease;
+  }
+  a.btn:active{background:var(--burdeos);color:var(--crema)}
+  @media(hover:hover){a.btn:hover{background:var(--burdeos);color:var(--crema)}}
+  .btn .t{font-size:1.4rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;display:block}
+  .btn .s{font-size:1rem;font-style:italic;opacity:.85;display:block;margin-top:2px}
+  a.mini{
+    display:block;text-decoration:none;color:var(--burdeos);
+    border:1.2px solid var(--burdeos);border-radius:3px;
+    padding:13px 16px;margin:9px 0;font-size:1.18rem;letter-spacing:.05em;
+    text-transform:uppercase;font-weight:600;background:rgba(255,255,255,.30);
+  }
+  a.mini:active{background:var(--burdeos);color:var(--crema)}
+  @media(hover:hover){a.mini:hover{background:var(--burdeos);color:var(--crema)}}
+  .foot{margin-top:30px;font-size:1.02rem;color:var(--suave);line-height:1.7}
+  .foot a{color:var(--burdeos);text-decoration:none}
+  .foot .sep{color:var(--burdeos);opacity:.5;margin:0 7px}
+</style>
+</head>
+<body>
+<div class="overlay">
+  <div class="wrap">
+    <img class="logo" src="logo.png" alt="Casa de Comidas Amparo 1948">
+    <p class="tagline">La cocina de siempre, interpretada como nunca</p>
+
+    <div class="rombo"><span></span></div>
+
+    <p class="label">Nuestras cartas</p>
+    <a class="btn" href="carta.pdf" target="_blank" rel="noopener">
+      <span class="t">La Carta</span><span class="s">Menú Amparo y carta de la casa</span>
+    </a>
+    <a class="btn" href="vinos.pdf" target="_blank" rel="noopener">
+      <span class="t">Vinos</span><span class="s">La Bodega de Amparo</span>
+    </a>
+    <a class="btn" href="postres.pdf" target="_blank" rel="noopener">
+      <span class="t">Postres</span><span class="s">Los Dulces de Amparo</span>
+    </a>
+
+    <div class="rombo"><span></span></div>
+
+    <a class="mini" href="https://www.google.com/maps/reserve/v/dine/c/BI-Krm2ukmg" target="_blank" rel="noopener">Reservar mesa</a>
+    <a class="mini" href="https://casaamparo1948.com/eventos" target="_blank" rel="noopener">Eventos y celebraciones</a>
+
+    <div class="foot">
+      <a href="https://casaamparo1948.com/visitanos" target="_blank" rel="noopener">Cómo llegar</a>
+      <span class="sep">·</span>
+      <a href="tel:+34914902346">91 490 23 46</a><br>
+      <a href="https://instagram.com/casamparo1948" target="_blank" rel="noopener">@casamparo1948</a>
+      <span class="sep">·</span>
+      <a href="https://casaamparo1948.com" target="_blank" rel="noopener">casaamparo1948.com</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
